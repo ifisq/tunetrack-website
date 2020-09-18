@@ -1,1 +1,1 @@
-added react, and made it a bit smoother with animations
+added react, and made it a bit smoother with animations :D
