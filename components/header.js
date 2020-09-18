@@ -7,7 +7,7 @@ function Header() {
         <div className="flex-1">
           <h3 className="text-white text-xl font-bold">TuneTrack</h3>
         </div>
-        <div className="flex-initial">
+        <div className="flex-initial hidden md:block">
           <a
             href="mailto:tunetrack@nambiar.dev"
             target="_blank"
