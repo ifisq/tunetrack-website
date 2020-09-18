@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "build": "yarn build",
+    "start": "yarn dev",
+    "export": "npm run build && next export"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,7 @@
   "homepage": "https://github.com/taylorbryant/next-starter-tailwind#readme",
   "dependencies": {
     "framer-motion": "^2.6.15",
-    "next": "9.5.3",
+    "next": "^9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
